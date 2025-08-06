@@ -1,3 +1,8 @@
+body{
+    background: #22C1C3;
+background: radial-gradient(circle,rgb(20, 187, 190) 0%, rgb(243, 225, 183) 100%);
+
+}
 .addBook-btn{
     margin-top: 50px;
 
@@ -16,10 +21,9 @@
     cursor: pointer;
     margin-bottom: 50px;
 }
-.container{
+.main{
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
     width: 500px;
     align-items: center;
     justify-content: center;
@@ -39,4 +43,21 @@ input{
     border: none;
     padding: 5px;
     border-radius: 5px;
+}
+.container{
+    display: flex;
+}
+.card{
+    width: 250px;
+    border: none;
+    height: 250px;
+    background-color: rgb(165, 226, 228);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.card-container{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
 }

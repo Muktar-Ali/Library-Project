@@ -1,0 +1,42 @@
+.addBook-btn{
+    margin-top: 50px;
+
+}
+#addButton{
+    height: 100;
+    background-color: rgb(26, 29, 207);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    padding: 20px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#myForm{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin: 5px;
+}
+.submit-btn{
+    margin-top: 20px;
+    background-color: rgb(26, 29, 207);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
